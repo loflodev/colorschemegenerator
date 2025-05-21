@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Picker</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <input name="picker" id="picker" type="color"  />
+        <select name="selector" id="selector">
+         <option value="monochrome">Monochrome</option>
+         <option value="monochrome-dark">Monochrome-dark</option>
+         <option value="monochrome-light">Monochrome-light</option>
+         <option value="analogic">Analogic</option>
+         <option value="complement">Complement</option>
+         <option value="analogic-complement">Analogic-complement</option>
+        </select value="monochrome-dark">
+        <button id="submit">Get color scheme</button>
+      </header>
+
+      <section class="s-header">
+        <div id="p1" class="color-scheme"></div>
+        <div id="p2" class="color-scheme"></div>
+        <div id="p3" class="color-scheme"></div>
+        <div id="p4" class="color-scheme"></div>
+        <div id="p5" class="color-scheme"></div>
+      </section>
+
+      <section class="s-footer">
+        <div id="c1" class="color-hex">#F55A5A</div>
+        <div id="c2" class="color-hex">#2B283A</div>
+        <div id="c3" class="color-hex">#FBF3AB</div>
+        <div id="c4" class="color-hex">#AAD1B6</div>
+        <div id="c5" class="color-hex">#A626D3</div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
